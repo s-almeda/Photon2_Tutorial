@@ -22,6 +22,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 
 <!--- - Install IDE~  -->
 
+
 #### 1: Initial Set Up (first time only)
 - create a Particle account [particle.io/signup](https://login.particle.io/signup)
 - follow the steps at [setup.particle.io](https://setup.particle.io/)
@@ -86,9 +87,12 @@ void loop() {
 - Use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor the serial output. (right-click: Open Link in New Tab)
 - BAM! There's your device's MAC address
 - ```XX:XX:XX:XX:XX:XX```
+
+
   
 <!-- ![USBserialLog_MACaddress2](/images/USBserialLog_MACaddress2.png)--> 
 - Copy this address somewhere safe and bring it with you to campus so that you can get onto the IoT network
+- ![macaddressimage](https://i.imgur.com/xOZ7K13.jpg)
 
 #### 4: Register MAC Address with Berkeley IoT Wi-Fi (-> do this anywhere)
 - Navigate to the [UC Berkeley Wi-Fi Portal](https://portal.berkeley.edu/people/wifi_access)
@@ -97,7 +101,9 @@ void loop() {
 - enter in the MAC address you copied in the earlier steps
 - issue the device a name
 - __copy your Berkeley-IoT password somewhere SAFE so that you will remember it!__
-   - this password is only shown once. It will never be shown again...   
+   - this password is only shown once. It will never be shown again...
+ 
+![ucbwifiportal](https://i.imgur.com/Xwh8DSt.jpg) 
 
 #### 5: Connect Photon2 Berkeley IoT Wi-Fi (-> do this on campus)
 - Navigate to: https://docs.particle.io/tools/developer-tools/configure-wi-fi/
